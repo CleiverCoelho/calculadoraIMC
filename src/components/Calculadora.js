@@ -13,11 +13,11 @@ export default function Calculadora({altura, setAltura, peso, setPeso, imc, setI
         setIMC(novoIMC.toFixed(2));
         if(novoIMC.toFixed(2) < 19.5){
             setClassificacaoIMC("Magreza");
-        }else if(novoIMC.toFixed(2) >= 19.5 && novoIMC.toFixed(2) <= 24.9){
+        }else if(novoIMC.toFixed(2) >= 19.5 && novoIMC.toFixed(2) < 25){
             setClassificacaoIMC("Normal");
-        }else if(novoIMC.toFixed(2) >= 25 && novoIMC.toFixed(2) <= 29.9){
+        }else if(novoIMC.toFixed(2) >= 25 && novoIMC.toFixed(2) < 30){
             setClassificacaoIMC("Sobrepeso")
-        }else if(novoIMC.toFixed(2) >= 30 && novoIMC.toFixed(2) <= 39.9){
+        }else if(novoIMC.toFixed(2) >= 30 && novoIMC.toFixed(2) < 40){
             setClassificacaoIMC("Obesidade")
         }else if(novoIMC.toFixed(2) >= 40){
             setClassificacaoIMC("Obesidade Grave");
