@@ -85,6 +85,12 @@ const Menu = styled.div`
         border-radius: 10px;
         margin: 5px 0px;
     }
+
+    @media (max-width: 420px){
+        input, button {
+            width: 150px;
+        }
+    }
 `
 
 const Valores = styled.div`
