@@ -79,7 +79,7 @@ const Menu = styled.div`
     }
     input, button{
         background-color: white;
-        width: 150px;
+        width: 300px;
         height: 30px;
         border: 1px solid green;
         border-radius: 10px;
