@@ -88,7 +88,7 @@ const Menu = styled.div`
 
     @media (max-width: 460px){
         input, button {
-            width: 150px;
+            width: 120px;
         }
     }
 `
